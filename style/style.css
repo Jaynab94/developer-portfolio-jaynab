@@ -1,0 +1,176 @@
+/* common shared style */
+body {
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related style */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 220px;
+
+}
+
+.website-title {
+    color: #181818;
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+}
+
+.colore {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+}
+
+.btn-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+
+
+    color: #fff;
+
+    font-size: 20px;
+
+    font-weight: 700;
+    padding: 18px 35px;
+    margin-right: 30px;
+
+
+
+}
+
+.btn-contact {
+    border-radius: 5px;
+    background: #FFF8F3;
+
+    color: #FD6E0A;
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+    padding: 18px 35px;
+    border-color: #FD6E0A;
+
+}
+
+/* header related style */
+
+.header-section {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.banner {
+    padding: 47px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile-picture {
+    width: 500px;
+
+
+}
+
+.banner-title {
+
+    color: #474747;
+
+    font-size: 45px;
+
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+
+.banner-name {
+
+    color: #181818;
+
+    font-size: 85px;
+
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+
+    color: #757575;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+    width: 500px;
+
+}
+
+/* main section */
+
+/* about section design */
+
+.about-section {
+    padding: 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+
+}
+
+.section-title {
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.about-description-section {
+
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    
+
+}
