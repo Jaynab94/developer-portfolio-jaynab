@@ -146,6 +146,12 @@ nav a {
 
 /* main section */
 
+main {
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section design */
 
 .about-section {
@@ -171,6 +177,46 @@ nav a {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    
 
+
+}
+
+/* about info section */
+
+
+.about-info {
+    text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info-title {
+    color: #757575;
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+}
+
+.about-info-description {
+    color: #474747;
+
+    font-size: 15px;
+
+    font-weight: 700;
+   
+
+}
+
+/* what i do section */
+
+#what-i-do-description {
+    padding: 30px 130px ;
+    
 }
