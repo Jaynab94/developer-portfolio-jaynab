@@ -280,7 +280,7 @@ main {
 }
 
 .resume-title {
-    margin-bottom: 10px;
+    git margin-bottom: 10px;
 }
 
 .resume-education-institute {
@@ -292,10 +292,22 @@ main {
 }
 
 .resume-description {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
-#last-button {
-    margin-top: 60px;
-    margin-bottom: 130px;
+
+.last-button {
+
+    text-align: center;
+    
+}
+
+/* footer section design */
+
+
+footer {
+    display: flex;
+    background: #FD6E0A;
+    padding: 130px 230px;
+    margin-top: 120px;
 }
